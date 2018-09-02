@@ -1,0 +1,154 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Modifications by:
+% Zac Wood (https://zacwood.me)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{fontawesome}
+\usepackage{hyperref}
+
+\usepackage[left=0.3in, top=0.3in, right=0.3in, bottom=0.3in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%----------------------------------------------------------------------------------------
+%	HEADER
+%----------------------------------------------------------------------------------------
+
+\name{Zachary Wood} % Your name
+
+\address{
+  \faHome \space Ashburn, VA \\
+  \faPhone \space (248) 425-2887 \\
+  \faEnvelope \space \href{mailto:zac.wood9@gmail.com}{zac.wood9@gmail.com} \\
+  \faGithub \space \href{https://github.com/zacwood9}{zacwood9} \\
+  \faLinkedin \space \href{https://linkedin.com/in/zacwood9}{zacwood9} \\
+  \faGlobe \space \href{https://zacwood.me}{zacwood.me}
+} % Your address
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+  
+{\bf George Mason University} \hfill {Fall 2017 - Spring 2021 Expected}
+\\ 
+B.S., Computer Science, GPA: 3.9 \hfill {\it Fairfax, VA}
+
+\begin{list}{$\cdot$}{\leftmargin=0em}
+  \vspace{-0.5em}
+    \item \emph{University Scholar} - one of twenty recipients in my class of the highest academic scholarship awarded at GMU
+\end{list}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{RELEVANT EXPERIENCE}
+
+\begin{rSubsection}{Software Development Intern}{May - August 2018}{Remine}{Fairfax, VA} 
+
+  \item Designed, implemented, and shipped a replacement for a \textbf{critical piece of the data pipeline}
+  \item Achieved an \textbf{80\% increase in user productivity} compared to the replaced software
+  \item Front-end built with \textbf{React + Redux}; back-end REST API built with \textbf{TypeScript, PostgreSQL}
+  \item Built an \textbf{iOS native component} for the React Native mobile team using \textbf{Objective-C}
+  
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate Research Assistant}{December 2017 - June 2018}{Evolutionary Computation Laboratory}{George Mason University} 
+
+  \item Developed a framework for \textbf{swarm robotics simulations} for the laboratory’s FlockBot research
+  \item Worked closely with faculty and students in a \textbf{team environment}
+  
+\end{rSubsection} 
+
+\begin{rSubsection}{Software Development Intern}{June - August 2017}{Edge 360}{Ashburn, VA} 
+
+  \item Developed a system to allow the public to volunteer their private camera systems to aid in criminal investigations
+  \item Built an admin interface using the \textbf{Google Maps API} to visualize collected data
+  \item Developed a \textbf{REST API} using \textbf{Express + Node.js} to persist data
+  
+\end{rSubsection} 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{LEADERSHIP AND PROJECTS}
+
+  \begin{rSubsection}{Mason Student Run Computing and Technology (SRCT)}{Fall 2018 - Present}{Project Manager and Lead Developer}{\url{https://srct.gmu.edu}} 
+
+    \item Student organization focused on developing open source software for the benefit of the GMU community
+    \item Led development and coordinated developers as the Project Manager of the \textbf{\href{https://git.gmu.edu/srct/schedules}{SRCT Schedules}} project
+    \item Built REST API with \textbf{Ruby on Rails} and web app with \textbf{React + Redux}
+ 
+  \end{rSubsection}
+
+  \begin{rSubsection}{Attics}{\url{https://github.com/zacwood9/attics}}{Developer}{} 
+
+    \item iOS app that lets users stream thousands of free live concert recordings
+    
+  \end{rSubsection}
+
+\end{rSection} 
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS and INTERESTS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+  Programming Languages & TypeScript, JavaScript, Swift, Go, Ruby, Java\\
+  Frameworks & React, Redux, Ruby on Rails, iOS + UIKit\\
+  Other Technologies & Docker, PostgreSQL, Git, Unix\\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	OTHER
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OTHER}
+
+  \begin{rSubsection}{Congress-Bundestag Youth Exchange}{August 2016 - June 2017}{Youth Ambassador}{Wildeck, Germany} 
+
+  \item Recipient of prestigious State Department scholarship to study abroad as a Youth Ambassador in Germany
+    
+\end{rSubsection} 
+
+\end{rSection} 
+
+\end{document}
+
